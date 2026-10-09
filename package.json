@@ -1,0 +1,36 @@
+{
+  "name": "ui-ux-max-pro",
+  "version": "1.0.0",
+  "description": "A comprehensive UI/UX component library and design system",
+  "main": "index.js",
+  "bin": {
+    "ui-ux-max-pro": "./bin/cli.js"
+  },
+  "scripts": {
+    "start": "node ./bin/cli.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "echo 'Building UI/UX Max Pro...'",
+    "dev": "node ./bin/cli.js --dev"
+  },
+  "keywords": [
+    "ui",
+    "ux",
+    "design",
+    "components",
+    "library",
+    "max-pro"
+  ],
+  "author": "rk1990m",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rk1990m/ui-ux-max-pro.git"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "preferGlobal": true,
+  "bin": {
+    "ui-ux-max-pro": "./bin/cli.js"
+  }
+}

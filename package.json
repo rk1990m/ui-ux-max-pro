@@ -1,24 +1,32 @@
 {
   "name": "ui-ux-max-pro",
   "version": "1.0.0",
-  "description": "A comprehensive UI/UX component library and design system",
-  "main": "index.js",
+  "description": "A premium UI/UX design toolkit with a global CLI for rapid design workflow automation.",
+  "main": "lib/index.js",
+  "type": "commonjs",
   "bin": {
-    "ui-ux-max-pro": "./bin/cli.js"
+    "ui-ux-max-pro": "bin/cli.js"
   },
+  "files": [
+    "bin",
+    "lib",
+    "README.md"
+  ],
   "scripts": {
     "start": "node ./bin/cli.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "echo 'Building UI/UX Max Pro...'",
-    "dev": "node ./bin/cli.js --dev"
+    "dev": "node ./bin/cli.js --dev",
+    "build": "node -e \"console.log('Building UI/UX Max Pro...')\"",
+    "test": "node --test",
+    "lint": "echo \"No lint configured\""
   },
   "keywords": [
     "ui",
     "ux",
-    "design",
+    "design-system",
     "components",
-    "library",
-    "max-pro"
+    "cli",
+    "productivity",
+    "ui-ux-max-pro"
   ],
   "author": "rk1990m",
   "license": "MIT",
@@ -26,11 +34,12 @@
     "type": "git",
     "url": "https://github.com/rk1990m/ui-ux-max-pro.git"
   },
-  "engines": {
-    "node": ">=14.0.0"
+  "homepage": "https://github.com/rk1990m/ui-ux-max-pro",
+  "bugs": {
+    "url": "https://github.com/rk1990m/ui-ux-max-pro/issues"
   },
-  "preferGlobal": true,
-  "bin": {
-    "ui-ux-max-pro": "./bin/cli.js"
-  }
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "preferGlobal": true
 }
